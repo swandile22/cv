@@ -138,7 +138,7 @@ a {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 1270px) {
+@media only screen and (max-width: 1620px) {
     .swandile__cv__header__section__profile,
     .swandile__cv__header__section__journey__header__content {
         display: flex;
