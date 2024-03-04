@@ -164,4 +164,17 @@ a {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .swandile__cv__header__section__skills__header__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .swandile__cv__header__section__soft-skills__header__grid,
+    .swandile__cv__header__section__projects__header__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 
