@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.swandile__cv__header__section__profile__description__intro {
+    padding: 1em;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1em;
+    background: #a2d4de;
+    border-radius: 0.5em;
+    color: #fff;
+}
+
+.swandile__cv__header__section {
+    max-width: 100%;
+    background: #000;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.swandile__cv__header__section__profile {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 0 3em;
+}
+
+.swandile__cv__header__section__profile__image {
+    width: 500px;
+}
+
+span {
+    color: #79c9d9;
+    font-weight: bold;
+}
+
+.swandile__cv__header__section__journey__header,
+.swandile__cv__header__section__education__header,
+.swandile__cv__header__section__skills__header,
+.swandile__cv__header__section__soft-skills__header,
+.swandile__cv__header__section__projects__header {
+    text-align: center;
+    background: #a2d4de;
+    border: 1px solid #000;
+    color: #fff;
+    margin: 0 0 3em 0;
+}
+
+.swandile__cv__header__section__journey,
+.swandile__cv__header__section__education,
+.swandile__cv__header__section__skills,
+.swandile__cv__header__section__soft-skills,
+.swandile__cv__header__section__projects {
+    background: #000;
+    color: #fff;
+}
+
+.swandile__cv__header__section__journey__header__content {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 0 3em;
+}
+
+p {
+    font-size: 20px;
+}
+
+.swandile__cv__header__section__journey__header__content__description__roles {
+    padding-top: 1em;
+}
+
+.swandile__cv__header__section__education__header__certifications {
+    padding-bottom: 3em;
+    margin: 0 3em;
+}
+
+.swandile__cv__header__section__skills__header__stack__section,
+.swandile__cv__header__section__soft-skills__header__section,
+.swandile__cv__header__section__projects__header__section {
+    padding-bottom: 3em;
+    margin: 0 30em;
+    text-align: center;
+}
+
+.swandile__cv__header__section__skills__header__grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr)
+}
+
+.swandile__cv__header__section__skills__header__grid__stack,
+.swandile__cv__header__section__soft-skills__header__grid__skills,
+.swandile__cv__header__section__projects__header__grid__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.swandile__cv__header__section__soft-skills__header__grid,
+.swandile__cv__header__section__projects__header__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+}
+
+.swandile__cv__header__section__skills__header__grid__stack__icon,
+.swandile__cv__header__section__soft-skills__header__grid__icon {
+    width: 50%;
+    height: 50%;
+}
+
+.swandile__cv__header__section__projects__header__grid__icon {
+    width: 86%;
+    height: 40%;
+}
+
+.swandile__cv__header__section__contact {
+    display: flex;
+    justify-content: space-around;
+    background: #a2d4de;
+    border: 1px solid #000;
+    color: #fff;
+    margin: 0;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
