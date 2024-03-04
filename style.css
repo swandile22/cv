@@ -145,6 +145,18 @@ a {
     .swandile__cv__header__section__projects__header__section {
         margin: 3em;
     }
+
+    .swandile__cv__header__section__profile {
+        gap: 3em;
+    }
+
+    .swandile__cv__header__section__profile__description__paragraph {
+        padding-top: 1em;
+    }
+
+    .swandile__cv__header__section__journey__header {
+        margin: 0 0 2em 0;
+    }
 }
 
 
