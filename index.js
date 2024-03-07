@@ -1,7 +1,7 @@
 const swiperEl = document.querySelector('swiper-container')
 Object.assign(swiperEl, {
     slidesPerView: 1.5,
-    spaceBetween: 1,
+    spaceBetween: 10,
     breakpoints: {
         640: {
             slidesPerView: 2.5,
